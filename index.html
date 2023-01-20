@@ -1,0 +1,375 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="w3.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family: 'Abel';
+
+        color: black
+    }
+
+    a {
+        font-size: 22px;
+        text-decoration: none;
+    }
+
+    a.contentx {
+        font-size: 15px;
+        text-decoration: none;
+        color: orange;
+    }
+
+    img.latestpost {
+        width: 100%;
+        height: auto;
+    }
+
+    hr {
+        width: 60px;
+        border: 2px solid black;
+        border-radius: 5px;
+
+    }
+</style>
+
+<body>
+    <!-- NAVBAR -->
+    <div>
+        <img src="./bgbanner.PNG" width="100%" height="30%">
+
+        <div class="w3-container w3-bar w3-white">
+            <button class="w3-bar-item w3-button" onclick="OpenMenu('home')">Home</button>
+            <button class="w3-bar-item w3-button" onclick="OpenMenu('about')">About</button>
+            <button class="w3-bar-item w3-button" onclick="OpenMenu('tutorial')">Tutorial</button>
+            <button class="w3-bar-item w3-button" onclick="OpenMenu('animation')">Animation</button>
+            <button class="w3-bar-item w3-button" onclick="OpenMenu('profile')">Profile</button>
+            <input style="right: 0;" type="text" placeholder="search..." class="w3-bar-item w3-input">
+            <button class="w3-bar-item w3-button w3-black">Go</button>
+        </div>
+    </div>
+    <!-- end navbar -->
+    <!--HOME  -->
+    <div style="display: block; margin-top: 30px;" class="w3-container isiMenu" id="home">
+        <div class="w3-row-padding w3-card">
+            <div class="w3-col m3 w3-animate-zoom">
+                <br>
+                <p style="margin-left:30px ;">FEATURED</p>
+                <br>
+                <img src="./hill1.jpg">
+            </div>
+            <div class="w3-col m9 w3-animate-opacity">
+                <div style="padding-top:80px ;">
+                    <p>August 20, 2023</p>
+                    <h1>ANIME HILLTOP</h1>
+                    <hr>
+                    <p>Another tiny animation collaboration with friend show<br> an anime girl standing on hilltop or
+                        hillside
+                        looking at <br> distance building.</p>
+                    <br>
+                    <a class="contentx" href="#">Share</a>
+                    <a class="contentx" href="#" style="margin-left: 30px;">1 Comment</a>
+                    <a class="contentx" href="#" style="margin-left: 110px;">Read More</a>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div style="margin-left:50px; margin-top:50px ;" class="w3-container">
+            <p>LATEST POST</p>
+            <div class="w3-row-padding w3-panel w3-animate-opacity">
+                <a href="#">
+                    <div class="w3-col m6">
+                        <br>
+                        <img src="./latest1.jpg" class="latestpost">
+                        <p>DECEMBER 19,2022</p>
+                        <h1>
+                            ENHANCING YOUR ANIME ARTWORK<br> USING BLUR FILTER
+                        </h1>
+                        <br>
+                        <a class="contentx" href="#">Share</a>
+                        <a class="contentx" href="#" style="margin-left: 30px;">1 Comment</a>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="w3-col m6">
+                        <br>
+                        <img src="./latest2.jpg" class="latestpost">
+                        <p>January 19,2023</p>
+                        <h1>
+                            MR CAT COMIC
+                        </h1>
+                        <br>
+                        <a class="contentx" href="#">Share</a>
+                        <a class="contentx" href="#" style="margin-left: 30px;">1 Comment</a>
+                    </div>
+                </a>
+
+            </div>
+
+
+
+        </div>
+
+        <div style="margin-left:50px; margin-top:50px ;" class="w3-container">
+
+            <div class="w3-row-padding w3-panel w3-animate-zoom">
+                <a href="#">
+                    <div class="w3-col m6">
+                        <br>
+                        <img src="./latest3.jpg" class="latestpost">
+                        <p>DECEMBER 30,2022</p>
+                        <h1>
+                            COLOUR GRADING USING CURVES<br>AND LEVELS FOR ANIME STYLE <br> BACKGROUND ART
+                        </h1>
+                        <br>
+                        <a class="contentx" href="#">Share</a>
+                        <a class="contentx" href="#" style="margin-left: 30px;">1 Comment</a>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="w3-col m6">
+                        <br>
+                        <img src="./latest4.jpg" class="latestpost">
+                        <p>January 19,2023</p>
+                        <h1>
+                            ANIMATION BACKGROUND ART<br> PAINTING USING PHOTOSHOP AND<br> BLENDER3D
+                        </h1>
+                        <br>
+                        <a class="contentx" href="#">Share</a>
+                        <a class="contentx" href="#" style="margin-left: 30px;">1 Comment</a>
+                    </div>
+
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <!-- end home -->
+
+
+    <div class="w3-container isiMenu w3-center" id="about" style="display: none;">
+        <h1 class=" w3-animate-top">ABOUT</h1>
+
+        <h6 class=" w3-animate-bottom">
+            McOwn is one of those rare creatures hovering on the brink of extinction and near-fantasy in the world
+            of<br>
+            programming. He is a hybrid designer/programmer who also happens to be color blind. Lun enjoys
+            doodling,<br>
+            creating new characters and painting landscape art
+        </h6>
+        <h6 class=" w3-animate-top">
+            also love experimenting with a variety of software and creating helpful tutorials in his spare time<br>
+            he's design work has been showcased in events as well as a few international publications.
+        </h6>
+        <h6 class=" w3-animate-zoom">
+            previously worked in the US games industry as one of the lead game developers for the
+            development<br>
+            of an online game platform for Blizzard Hypergriph etc. He also played a key role in the design,<br>
+            development and deployment of an interactive TV platform for the local broadcast station, 8TV which
+            was<br>
+            also licensed to overseas TV station later. He has also worked on a wide portfolio of web based
+            games<br>
+            projects for local and international clients.
+        </h6>
+    </div>
+
+    <div class="w3-container isiMenu w3-center" id="tutorial" style="display: none;">
+
+        <center>
+            <table>
+                <tr>
+                    <td>
+                        <h1 class="w3-animate-left">TUTORIAL</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2 class=" w3-animate-right">Anime Style Background Tutorial</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h6 class="w3-animate-bottom">
+                            Anime style background art painting tutorial and walkthrough using Photoshop. More <br>
+                            tutorial
+                            can be found in my blog under the Tutorial tag.
+                        </h6>
+                    </td>
+                </tr>
+                <!-- CONTENT -->
+                <tr>
+                    <td>
+                        <img src="./tutorial1.jpg" alt="" class="w3-animate-bottom">
+                        <h3>ANIME CLOUD TUTORIAL</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./tutorial2.jpg" alt="" class="w3-animate-top">
+                        <h3>ANIME TREE TUTORIAL</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./tutorial3.jpg" alt="" class="w3-animate-zoom">
+                        <h3>PAIN OVER 3D TUTORIAL</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./tutorial4.jpg" alt="" class="w3-animate-opacity">
+                        <h3>ANIME TRUNK TUTORIAL</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./tutorial6.jpg" alt="" class="w3-animate-left">
+                        <h3>ANIME BACKGROUND TUTORIAL</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./tutorial7.jpg" alt="" class="w3-animate-right">
+                        <h3>MAKOTO SHINKAI ANIME TUTORIAL</h3>
+                    </td>
+                </tr>
+            </table>
+        </center>
+
+    </div>
+
+    <div class="w3-container isiMenu w3-center" id="animation" style="display: none;">
+
+        <center>
+            <table>
+                <tr>
+                    <td>
+                        <h1 class=" w3-animate-top">ANIMATION</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2 class=" w3-animate-bottom">ANIMATION</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h6 class=" w3-animate-bottom">
+                            Producing animation is not a simple task for a non animator like me, but here are some of
+                            my<br>
+                            simple animations. A complete list of animations can be seen in my Youtube Channel and<br>
+                            Vimeo.
+                        </h6>
+                    </td>
+                </tr>
+                <!-- CONTENT -->
+                <tr>
+                    <td>
+                        <div class="w3-animate-zoom">
+                            <img src="./animation1.jpg" alt="">
+                            <h3>LONG DAY</h3>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="w3-animate-zoom">
+                            <img src="./animation2.jpg" alt="">
+                            <h3>HILLTOP</h3>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="w3-animate-zoom">
+                            <img src="./animation3.jpg" alt="">
+                            <h3>STRANGE THINGS ON CAMERA</h3>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </center>
+
+    </div>
+
+
+    <div class="w3-container isiMenu w3-center" id="profile" style="display: none;">
+        <h1 class=" w3-animate-top">PROFILE</h1>
+
+
+        <div class="w3-card w3-animate-opacity">
+            <img src="me.jpg">
+            <center>
+                <table>
+                    <tr>
+                        <td>
+                            <h2>Nama</h2>
+                        </td>
+                        <td>
+                            <h2>: Raif fahmi</h2>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <h2>NIM</h2>
+                        </td>
+                        <td>
+                            <h2>: 10122490</h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h2>KELAS</h2>
+                        </td>
+                        <td>
+                            <h2>: IF-5</h2>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+        </div>
+
+
+
+        <h6 class=" w3-animate-bottom">
+            This website is an imitation of a website owned by an artist from Malaysia <br>
+            who has the pseudonym Mclelun, <br>
+            thereason I copied this website is because this website is very interesting,<br>
+            it seems simple but artistic, I made it purely using HTML and CSS framework W3CSS.
+            you can see the original website in this link <a href="http://www.mclelun.com/" target="_blank">THIS</a>
+        </h6>
+    </div>
+
+    <!-- footer -->
+    <div class="w3-container w3-center" style="margin-top:100px;margin-bottom: 100px;">
+        Copyright &#169 McOwn
+    </div>
+
+    <!-- end footer -->
+
+    <script>
+        function OpenMenu(NamaMenu) {
+            var i;
+            var x = document.getElementsByClassName("isiMenu");
+
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+
+            document.getElementById(NamaMenu).style.display = "block";
+        }
+
+    </script>
+</body>
+
+</html>
